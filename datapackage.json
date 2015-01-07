@@ -1,0 +1,69 @@
+{
+  "title": "Commerce des marchandises, US $, SH 1992, 80 et ouvrages en étain",
+  "name": "commerce-des-marchandises-et-ouvrages-en-etain",
+  "sources": [{
+        "name": "UN Data",
+        "web": "http://data.un.org/Data.aspx?q=senegal&d=ComTrade&f=_l1Code%3a80%3brtCode%3a686"
+    }],
+  "contributors":[ {
+      "name": "Ibrahima SENE",
+      "email": "seneibrahima@gmail.com"
+  }],
+  "licenses": [
+      {
+          "id": "odc-pddl",
+          "name": "Public Domain Dedication and License",
+          "version": "1.0",
+          "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+      }
+  ],
+  "resources": [
+    {
+      "name": "Commerce des marchandises et ouvrages en etain",
+      "path": "data/Commerce des marchandises et ouvrages en etain.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 9576,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Comm. Code",
+            "type": "integer"
+          },
+          {
+            "name": "Commodity",
+            "type": "string"
+          },
+          {
+            "name": "Flow",
+            "type": "string"
+          },
+          {
+            "name": "Trade (USD)",
+            "type": "integer"
+          },
+          {
+            "name": "Weight (kg)",
+            "type": "integer"
+          },
+          {
+            "name": "Quantity Name",
+            "type": "string"
+          },
+          {
+            "name": "Quantity",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
